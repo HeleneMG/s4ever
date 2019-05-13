@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import police Roboto Family-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <title>Aïe Dev ! Codez sans douleurs</title>
+</head>
+
+<body>
+  <!--***********************************************************NAV BAR - HEADER************************************************-->
+  <header>
+    <div class="navbar-fixed">
+      <nav class="green lighten-3">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center"><img src="images/logo-sforever.png" alt="simplonforever" class="logo"></a>
+          <a href=".mobile-demo" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><span class="black-text text-accent-4">menu</span></i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#ergo"><span class="white-text text-accent-3">Ergonomie</span></a></li>
+            <li><a href="#bien-etre"><span class="white-text text-accent-4">Bien-être</span></a></li>
+          </ul>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="#temoignages"><span class="white-text text-accent-4">Témoignages</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="yellow accent-3">
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#ergo"><span class="black-text text-accent-4">Ergonomie</span></a></li>
+        <li><a href="#bien-etre"><span class="black-text text-accent-4">Bien-être</span></a></li>
+        <li><a href="#temoignages"><span class="black-text text-accent-4">Témoignages</span></a></li>
+      </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // $('.parallax').parallax();
+      $('.sidenav').sidenav();
+    });
+    </script>
+
+    <div class="presentation">
+      <h1>Aïe dev !<br>Codez sans<br> douleurs</h1>
+      <h5>L'ergonomie au travail chez les développeurs :<br> la clef pour trouver le bien-être et la créativité.</h5>
+    </div>
+
+    <!-- **BOUTON VIDEO** -->
+    <div class="boutonvideo" >
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger yellow accent-3 black-text" href="#modal1">Regardez-moi</a>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <div class="embedresize">
+            <div>
+              <iframe class="z-depth-5" allowfullscreen frameborder="0" height="315" width="560" src="images/Simplon4everfinie.mp4"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    // Or with jQuery
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+    </script>
+
+  </header>
+
+  <!--**********************************************************SECTION ERGONOMIE*************************************************-->
+  <div id="fond">
+    <section id="ergo">
+        <h3><img src="images/html.png" alt="html">L'importance de l'ergonomie<br>au travail</h3>
+        <img src="images/bureau3.jpg"  alt="espace sympa" class="image1">
+          <div class="posture_ecran">
+            <h5>Les positions adéquates</h5>
+            <p>
+              • L’écran doit se situer à hauteur des yeux<br>
+              • L’angle de vue optimal se situe entre 20 et 22°<br>
+              • Angle entre bras et avant-bras : 90° Les épaules doivent être détendues et les bras reposent sur les accoudoirs<br>
+              • Disposez les documents sur lesquels vous travaillez entre l’écran et le clavier idéalement sur des porte documents<br>
+              • Le clavier doit être positionné à 10 cm du bord du bureau, droit devant. Veillez à la distance de votre clavier.<br>
+              • Tenez vous bien droit et amenez le côté droit de votre dossier à hauteur telle que la courbe du dossier se trouve à hauteur de la courbe du bas de votre dos<br>
+              • Fixez la hauteur de vos accoudoirs afin que les avants bras reposent dessus et que les épaules soient détendues. Si vous n’avez pas d’accoudoirs, posez les bras sur votre table de bureau<br>
+              • Réglez la hauteur de votre table. Vos pieds doivent pouvoir poser sur le sol. Vos épaules doivent être détendues<br>
+              • L’angle entre vos cuisses et vos mollets doivent être à 90° et vos pieds doivent être bien appuyés sur le sol.<br>
+              • Le bureau doit mesurer au moins 120 cm en largeur afin d’assurer une distance correcte de votre  regard vers l’écran.<br>
+              • La hauteur de la chaise doit permettre aux genoux d’être juste au-dessus des fesses.<br>
+              • Sous la table l’espace libre doit être de 65 cm de profondeur et de 60 cm de large afin d’avoir suffisamment de place pour les jambes.
+            </p>
+          </div>
+          <img src="images/position2.jpg" alt="Open space" class="image1">
+          <div class="travail_ecran">
+            <h5>Le travail sur écran</h5>
+            <p>
+              En pratique<br>
+              Aménager une pause d’au moins 5 min toutes les heures si la tâche est intensive ou bien d'un quart d'heure toutes les 2 heures si la tâche l’est moins. Il faut bouger pendant les pauses.<br>
+              Attention, les temps d'attente de réponses qui imposent la surveillance de l'écran ne sont pas des pauses !</br>
+              Travailler toute la journée sur écran n'est pas recommandé.<br>
+              Pour la vision, quitter l’écran des yeux pour regarder au loin de temps en temps (environ toutes les 20 minutes) constitue une pause visuelle qui permet de relâcher l’accommodation.<br>
+              <br>
+              Ecran<br>
+              L'écran doit être mat. Il en est ainsi des moniteurs LCD. En revanche, la grande majorité des écrans des micro-ordinateurs portables présente des reflets miroir qui peuvent être source de fatigue visuelle.<br>
+              L'écran doit être de taille adaptée au travail à effectuer mais aussi au niveau de résolution (ou définition) envisagé. Pour bénéficier confortablement de la haute résolution, l’écran doit être de grande taille, sinon les caractères apparaissent trop petits.
+              L'écran doit être orientable et inclinable facilement.<br>
+              <br>
+              Affichage<br>
+              Un affichage sur fond clair est à privilégier car :<br>
+              •	il est moins fatigant pour la vue qu'un affichage sur fond sombre<br>
+              •	les reflets sont peu visibles<br>
+              •	la couleur de fond est la même que celle des documents papier<br>
+              <br>
+              Avec un écran brillant d'ordinateur portable, un affichage sur fond clair est impératif.<br>
+              Pour la plupart des tâches en bureautique, il convient de ne pas utiliser plus de 2 ou 3 couleurs en plus de celle du fond. La couleur bleue est à éviter pour les caractères de petites polices et pour le curseur car elle est la moins bien perçue quand on fixe quelque chose ou avec l’avancée en âge. Par ailleurs, il faut veiller à ce que le contraste entre les caractères et le fond soit suffisant.
+            </p>
+          </div>
+      </section>
+
+      <!--*****************************************************SECTION BIEN ETRE******************************************************-->
+
+      <section id="bien-etre">
+        <h3><img src="images/html.png" alt="html">Le bien-être au travail</h3>
+        <img src="images/happy2.jpg" alt="bien etre" class="image1">
+          <div class="bien-etre">
+            <p>
+              Le bien être ou Qualité de Vie au Travail (QVT), c’est être satisfait...physiquement mais également psychologiquement,<br> les deux états étant intimement liés.<br>
+              <br>
+              •    Mobiliers et matériel optimum :  bureaux, chaises adaptés et ergonomiques, ainsi que claviers, souris et ordinateurs.<br>
+              •    Environnement ( direct) agréable : cadre de travail lumineux, calme.<br>
+              •    Environnement (indirect) : place de parking, place en crèche .<br>
+              •    Reconnaissance dans l’équipe : possibilité de se former, valorisation de l’implication.<br>
+              •    Partage de moments conviviaux : en mettant en place des « apéros », des activités communes.<br>
+            </p>
+          </div>
+      </section>
+    <!--*************************************SECTION TEMOIGNAGES***************************************-->
+
+    <section id="temoignages">
+      <h3><img src="images/mouse.png" alt="html">Interviews D'experts</h3>
+          <h5 id="careen">Careen Dankers</h5>
+        <div class="row">
+          <div class="col m4"><img src="images/career.jpg" alt="Careen Dankers" class="image1"></div>
+            <div class="col m8">
+            <div class="temoignages">
+
+            <p>
+              <h6>Qui êtes-vous ?</h6>
+              Je suis née aux Pays Bas. Je suis arrivée en France il y a 10 ans. Mon prénom CAREen vient de Care prendre soin et donc je considère que prendre soin des gens est ma mission de vie. </br>
+              J’ai fais une fac de Médecine et de Psychologie ainsi qu’un Master Promotion de la santé publique.
+              J’ai travaillé chez Air France et KLM ainsi que dans le milieu de l’assurance. C’est là que j’ai commencé à mettre en place un concept de bienêtre au travail individuel et collectif. </br>
+              Lorsque je suis arrivée en France, je ne parlais pas français aussi j’ai plutôt misé sur mon activité de yogi . Je suis également devenue conseillère pédagogique chez Kedge pour les étudiants étrangers isolés qui souffraient de problèmes d’addiction. </br>
+              En 2008, il y a une vague de suicides chez Orange. Je prends alors conscience de l’importance de la formation et de la mise en place de solutions curatives en France. </br>
+              J’ai du me former aux obligations spécifiques en France tels que le document unique ou une formation RSCP à sciences Po</br>
+            </br>
+            <h6>Quel est pour vous un environnement de travail idéal pour un développeur ? </h6>
+            Pour moi l’idéal est dans le mouvement. Un espace où l’on peut travailler dans différentes positions est idéal : Debout, assis, sur un ballon …
+            Mais il faut également tenir compte de l’environnement : qualité de l’air, plantes pour oxygéner la pièce et agrémenter l’aspect visuel.
+            L’idéal étant de favoriser le côté ludique et spontané. Il n’y a pas d’environnement idéal s’il est imposé et non choisi.</br>
+            On peut également organiser de minis ateliers entre collègues, marcher pendant l’heure du déjeuner, installer une salle de divertissement dans l’entreprise ou possibilité de sortir.</br>
+          </br>
+          <h6>Quelles sont les problématiques que vous rencontrez en entreprise ?</h6>
+          Les salariés se plaignent avant tout d’une mauvaise ambiance plus que de leur environnement. Souvent il y a un décalage entre la direction et les salariés qui ont l’impression de ne pas être écoutés. C’est l’approche Top/down : le dirigeant réfléchit pour les salariés alors que c’est lui qui est responsable de leur stress.
+          Lorsque j’interviens en entreprise , j’interroge d’abord  les salariés pour obtenir leur implication .
+          La plupart du temps ils réclame de la reconnaissance dans leur travail , une direction disponible,.
+          Il est important de fêter les succès et de remercier ses équipes quand c’est dans une démarche sincère.
+          L’approche anglo-saxonne est très différente de l’approche française : un échec est une expérience , dont il faut tirer la leçon mais ne pas s’appesantir dessus .
+          Aux Pays Bas , de nombreux salariés travaillent à plein temps mais sur 4 jours , hommes comme femmes et ils consacrent le 5e jour de la semaine ou à leur famille ou à des activités culturelles ou sportives ou encore à se former à d’autres compétences .
+          L’équilibre entre vie professionnelle et vie familiale y est très important.</br>
+        </br>
+        <h6>Comment ça se passe concrètement ?</h6>
+        Je réalise  un audit par le biais d’enquêtes auprès des salariés ainsi que par les chiffres des ressources humaines sur le taux d’absentéismes ou d’accidents de travail par exemple .
+        Ensuite je met en place des groupes de travail avec les différents intervenants afin de déterminer ce qui ne va pas et quelles sont les attentes des différents services ( les cadres ou les administratifs n’ont pas les mêmes besoins que les équipes de production par exemple)
+        Je propose ensuite des actions qui soient bénéfiques pour chacun en fonction de ses besoins.</br>
+      </br>
+      <h6>En conclusion :</h6> Le bien être en entreprise ce doit être la priorité pour chacun car quand on va bien on travaille mieux. Ce sont de multitudes de petites choses au quotidien qui se font naturellement.
+    </p>
+  </div>
+</div>
+</div>
+<h5> Matthieu Petit </h5>
+<div class="row">
+  <div class="col m4"><img src="images/petit1.jpg"  alt="Matthieu Petit" class="image1"></div>
+  <div class="col m8">
+    <div class="temoignages">
+    <p>Matthieu Petit
+      Ergonomie et spécialiste de la qualité de vie au travail.
+      Patron de la société EOSE
+
+      “Apres un bac en ingénierie j’ai fais une école d’ostéopathie puis j’ai travaillé pendant quelque temps dans des métiers ayant des contraintes physique comme magasinier…
+      Apres avoir fini mon école d’ostheo en 5 ans et pas 6 à cause d’une réforme j’ai trouvé un stage qui m’a permis d’avoir des bagages en biomécanique et anatomie. J’ai fait un master en ergonomie et risques liés aux situations au travail, et en même temps j’ai fais médecin du travail pour acquérir plus d’expérience.
+      C’est en ayant fait des job physique que j’ai décidé d’écrire mon rapport de stage sur les liens entre les ces métiers là et les clients que l’on reçoit en médecin du travail (Si le salarié sollicite les lombaires, il a des troubles lombargiques…). C’est ce qui m’a guidé sur la voie dans laquelle je suis actuellement.<br>
+
+      J’ai crée en 2016 mon cabinet en accompagnement de QVT dans une logique de salarié à temps partiel (pas seulement faire des rapports et des devis). On travail avec tous sortes d’entreprises dans une logique de bien-être et de prévention.<br>
+
+      En termes d’ergonomie au travail il faut faire le distinguo entre la partie bio-mécanique et tout ce qui va être épilogué dans l’ergonomie au travail.
+      La science des geste et de la posture a été pendant longtemps la formation la plus vendu en France, maintenant on sait que c’est important (la bonne position avec la bonne chaise et le bon bureau) mais on sait que c’est que un partie du problème, la partie la plus visible. Car si on a des douleurs physique on va partir du principe que cʼest dû à la posture que lʼon a et le niveau sonore qui peuvent avoir des impacts plus ou moins important. Une ambiance lumineuse dʼune pièces est impactant sur le travail sur écran. Le niveau sonore génère des perte dʼattention et de lʼagacement.<br>
+      Un des pires trucs en terme dʼergonomie sur écran cʼest mettre une feuille entre soi et le clavier de lʼordinateur = création dʼune distance avec les membres supérieurs, mauvais pour les cervicales. Le mieux cʼest 2 ou 3 écrans et investir dans des accessoires (rehausseur dʼécran).
+      Puis les classiques : un tapi de souris circonscrit le mouvement, des accoudoirs, des roues de chaise à lʼopposé de la dureté du sol.
+      Ce qui est important cʼest les variations de positions, ne pas rester statique (ne pas rester 5h dans la même position). La sédentarité est la pire des choses que nous pouvons faire à notre corps, on a besoin de bouger cʼest vital.
+      Les nouvelles technique (travailler sur un tapis de courses ou sur un swissball) cʼest bien mais 20min environ par période de 4h. De plus faut quelle soit bien gonfler, adapter à la personne... cʼest bien car cʼest une activité physique mais cela crée de la fatigue.<br>
+
+      Pour le bien-être (ce qui fait rester un salarié dans sa boite), aujourdʼhui on sait que si on augmente le niveau de stress dʼun salarié on va avoir une notion de psychosomatique au sens large du terme même si cela pose encore débat, cʼest en biotechnique et en kiné qui fait que lʼactivité musculaire des trapèzes augmentent. Donc il y a un lien avec stress vécu, ressenti et lʼactivité physique.
+      La conviction des entreprises qui devrait être commune c’est la qualité de vie au travail avant l’ergonomie pur de son environnement.
+      Si on a des bonnes conditions de travail on a des gens qui travail vite, bien et avec le sourire on obtient de la  productivité, qualités, climat social, donc il faut toujours évoluer dans ce sens.
+      La question c’est quʼest-ce qui fait que les gens se sentent bien dans une boite ? La réponse c’est lʼorganisation, lʼambiance, le niveau managerial, les typologie de projet sur lesquels on travail avant les meubles. Une situation de travail sur écran ne peut pas se résumer sur la posture.<br>
+
+      Une dernière régles simple : on n'a pas les mêmes typologies de projet : le mieux est dʼalterner les tâches longue avec les tâches moins longues. Bien organiser sa journée autour dʼun rythme de tâches.
+    </p>
+  </div>
+</div>
+</div>
+</section>
+</div>
+<!--*******************************************************BOUTON FLOTTANT******************************************************-->
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large  yellow" href="#">
+    <i class="large material-icons">arrow_upward</i>
+  </a>
+</div>
+<script>document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.fixed-action-btn');
+  var instances = M.FloatingActionButton.init(elems, options);
+});
+</script>
+
+<!--**********************************************************************FOOTER**************************************************************-->
+<div id="footer">
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="green-text text-lighten-3">Qui sommes-nous ?</h5>
+          <p class="green-text text-lighten-3">L’entreprise “SimplonForEver” est une entreprise qui réalise des campagnes de sensibilisation auprès d’apprenants en développement web.
+            Basée à Marseille, elle a été fondée en février 2019.</p>
+
+            <!-- **BOUTON MENTIONS LEGALES** -->
+
+            <!-- Modal Trigger -->
+            <div id="mentions">
+              <a class="waves-effect waves-light btn modal-trigger black accent-3 white-text" href="#modal2">Mentions Légales</a>
+              <!-- Modal Structure -->
+              <div id="modal2" class="modal">
+                <div class="modal-content black-text">
+                  <h4>Mentions légales</h4>
+                  <p>• Responsables de la publication : Christelle Ghandal, Niima Chiai, Tadikira Omar, Emmanuelle Willemart, Laurène Rolland, Hélène Mouttet, Cécilia Rahou, Romane Bourgnet.<br>
+                    •	SimplonForEver, société fictive utilisée dans le cadre du projet Fil Rouge de notre formation "Développeur.ses web et web mobile"<br>
+                    •	Hébergement : GANDI SAS, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 .</p>
+                  </div>
+                  <div class="modal-footer ">
+                    <a href="#!" class="modal-close waves-effect waves-green ligthen-3 btn-flat">OK</a>
+                  </div>
+                </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var elems = document.querySelectorAll('.modal');
+                  var instances = M.Modal.init(elems, options);
+                });
+                </script>
+              </div>
+
+              <!-- **FIN BOUTON MENTIONS LEGALES** -->
+
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="green-text text-lighten-3">Contacts</h5>
+              <ul class="green-text text-lighten-3">
+                <li>Téléphone: 06 00 00 00 00<br></li>
+                <li>Mail: <a class="green-text text-lighten-3" href="mailto:simplonforever@gmail.com">s-forever@gmail.com</a><br></li>
+                <li>Adresse: 26 Boulevard Madelaine Rémusat 13013 Marseille</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="grey-text text-darken-3">
+              © site web fait avec sueur par les webgiiiirls !
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!--LICENCE-->
+    <div class="licence" style="font-size: 10PX; color: #424242; background-color: black; width: 100%; height: 100%; text-align: center;">
+      Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/%22%3E" class="lien-licence" style="color: grey"> Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International. </a>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+  </html>

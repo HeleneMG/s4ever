@@ -1,0 +1,238 @@
+
+                                   /**HEADER**/
+body{
+	background-image: url(images/coding.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "roboto";
+}
+
+nav{
+	height: 12vh;
+}
+
+nav ul{
+	font-family: 'roboto';
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+
+nav img{
+	padding: 0.5em;
+}
+
+#mobile-demo{
+	padding-top: 0.5em;
+}
+
+header{
+	width:auto;
+	height: 100vh;
+}
+
+h1{
+	font-family: 'roboto';
+	font-weight: bold;
+	font-size: 90px;
+}
+
+.presentation{
+	margin-left: 8%;
+	padding-top: 3rem;
+	font-family: 'roboto';
+	font-weight: bold;
+}
+.embedresize {
+    max-width: 660px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.embedresize div {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.embedresize iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+                                                  /***SECTIONS**/
+#fond{
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height:100%;
+}
+
+h3{
+	padding-top: 7rem;
+	padding-bottom: 2em;
+	text-align: center;
+	font-family: 'roboto';
+	font-weight: bold;
+}
+
+section{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#ergo h5{
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+p{
+	font-family: 'Roboto';
+}
+
+.image1{
+	width:100%;
+	padding-top: 2em;
+}
+
+.posture_ecran{
+	text-align: justify;
+	padding-top: 2em;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.travail_ecran{
+	text-align: justify;
+	padding-top: 2em;
+	padding-left: 15%;
+	padding-right: 15%;
+	}
+
+.bien-etre{
+	text-align: justify;
+	padding-top: 2em;
+	padding-left: 15%;
+	padding-right: 15%;
+	}
+
+.image2{
+	padding-top: 3em;
+	float: inherit;
+}
+
+.temoignages{
+	width: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	max-height: 600px;
+	display: block;
+  overflow:auto;
+}
+
+ .temoignages p{
+	padding-top: 2em;
+}
+
+#temoignages h5{
+	padding-top: 2em;
+	text-align: center;
+}
+
+#careen h5{
+padding-top: 0px;
+}
+
+h6{
+	color: #81c784 ;
+	font-weight: bold;
+}
+#temoignages{
+	padding-bottom: 7rem;
+}
+                                  /**Footer**/
+footer{
+	width: 100%;
+	height: 40%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.boutonvideo{
+	padding-left: 8%;
+	padding-top: 3%;
+}
+
+                                  /**RESPONSIVE**/
+
+@media all and (max-width: 990px){
+
+nav img{
+		padding: 0em;
+}
+header{
+width: 100%;
+}
+.presentation{
+	width: 80%;
+	padding-top: 5%;
+	margin-left: 10%;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'roboto';
+	text-align: left;
+}
+
+.presentation h5{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 30px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h5{
+	font-size: 24px;
+	font-family: 'roboto';
+	text-align: left;
+}
+
+#fond{
+width: 100%;
+}
+
+.posture_ecran{
+padding-left: 0;
+padding-right: 0;
+width: 100%;
+}
+
+.travail_ecran{
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	}
+
+.bien-etre{
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	}
+
+	.temoignages{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+}
